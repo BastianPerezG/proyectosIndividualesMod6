@@ -1,0 +1,67 @@
+{% extends "./base.html" %}
+{% load static %}
+
+    {% block title %}<title>Landing Page</title> {% endblock %}
+    
+        {% block content %}
+        <section class="hero-section mt-4 mb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="text-center">
+                        <h1 class="hero-title">Bienvenido a El Túnel</h1>
+                        <h3 class="hero-description">Descubre nuestro bazar con una amplia variedad de productos y las
+                            mejores ofertas.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-md-6 izquierda">
+                <article>
+                    <h5>Acerca de El Túnel</h5>
+                    <p class="informacion">En "El Túnel" nos enorgullece ofrecer a nuestros clientes una experiencia de compra única y
+                        emocionante. Nuestro bazar cuenta con una amplia variedad de productos de alta calidad, desde
+                        artículos de decoración hasta productos de uso diario.</p>
+                    <p class="informacion">Encontrarás todo lo que necesitas en un solo lugar, con precios competitivos y ofertas especiales
+                        que te permitirán ahorrar mientras disfrutas de tus compras.</p>
+                    <p class="informacion">Nuestro objetivo es brindarte la mejor atención al cliente y asegurarnos de que encuentres
+                        exactamente lo que estás buscando. Nuestro equipo de expertos en ventas está listo para ayudarte
+                        y proporcionarte recomendaciones personalizadas.</p>
+                    <p class="informacion">Visítanos en nuestra ubicación o realiza tus compras en línea a través de nuestra plataforma
+                        segura. ¡Descubre todo lo que El Túnel tiene para ofrecerte y únete a nuestra comunidad de
+                        clientes satisfechos!</p>
+                </article>
+            </div>
+
+            <div class="col-md-6 mt-3">
+                <iframe width="600" height="450" frameborder="0" style="border:0"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1302.0245642295438!2d-70.6516519306059!3d-33.45925331985493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c513cd1b48f3%3A0x51cf3c3f699910f9!2sAv.%20Manuel%20Antonio%20Matta%201179%2C%208331000%20Santiago%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1680531470071!5m2!1ses-419!2scl"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="container datos d-flex justify-content-evenly">
+        <article class="col-md-6">
+            <h5>Información adicional</h5>
+            <ul>
+                <li>Horario de atención: Lunes a viernes de 9:00 am a 6:00 pm</li>
+                <li>Teléfono: +1234567890</li>
+                <li>Email: info@eltunel.com</li>
+            </ul>
+        </article>
+        <div class="col-md-6">
+            <h5 class="">Síguenos en redes sociales</h5>
+            <ul class="list-inline">
+                <li class="list-inline-item me-5"><a href="#" class=""><i class="fab fa-2xl fa-facebook"></i></a>
+                </li>
+                <li class="list-inline-item me-5"><a href="#" class=""><i class="fab fa-2xl fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item"><a href="#" class=""><i class="fab fa-2xl fa-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    {% endblock %}
